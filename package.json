@@ -1,0 +1,30 @@
+{
+  "name": "powerset",
+  "id": "powerset",
+  "version": "0.0.1",
+  "description": "Utility for creating a powerset in form of array",
+  "keywords": [ "powerset" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/powerset",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/powerset.git",
+    "web": "https://github.com/Gozala/powerset"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/powerset/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "main": "./powerset.js",
+  "scripts": {
+    "test": "node test/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/Gozala/powerset/License.md"
+  }]
+}
